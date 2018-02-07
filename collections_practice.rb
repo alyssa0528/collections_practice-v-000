@@ -44,8 +44,8 @@ def sum_array(array)
 end 
   
 def add_s(array)
+  plural_array = []
   array.each_with_index.collect{|element, index|}
     element = array[index]
-    if index == 2 
-      
+    plural_array  << "#{element}s"
 end 
