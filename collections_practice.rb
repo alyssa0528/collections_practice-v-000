@@ -50,6 +50,7 @@ def add_s(array)
       plural_array << "#{element}"
     else 
     plural_array << "#{element}s"
-  end
+    end
+  end 
     plural_array 
 end 
