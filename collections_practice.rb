@@ -26,9 +26,7 @@ end
 def kesha_maker(array)
   kesha_array = []
   array.each do |name|
-    name.delete(3)
-    kesha_array << name.insert(2, "$")
-    name
+    kesha_array << "#{name[0, 2]}" + "$" + "#{name[3..-1]"
   end 
   kesha_array
 end 
