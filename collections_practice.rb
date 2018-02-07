@@ -46,7 +46,10 @@ end
 def add_s(array)
   plural_array = []
   array.each_with_index.collect do |element, index|
-    plural_array  << "#{element}s"
+    if index == 2 
+      plural_array << "#{element}"
+    else 
+    plural_array << "#{element}s"
   end
     plural_array 
 end 
