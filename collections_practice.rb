@@ -41,3 +41,6 @@ end
 
 def sum_array(array)
   array.inject(0) do |result, integer| 
+    result + integer 
+  end 
+  
