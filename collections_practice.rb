@@ -28,6 +28,7 @@ def kesha_maker(array)
   array.each do |name|
     name.delete(3)
     kesha_array << name.insert(2, "$")
+    name
   end 
   kesha_array
 end 
