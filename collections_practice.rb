@@ -46,7 +46,6 @@ end
 def add_s(array)
   plural_array = []
   array.each_with_index.collect{|element, index|}
-    array[index] = element 
     plural_array  << "#{element}s"
     plural_array 
 end 
